@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(#3a474b, #2C3639);
+    height: 100%;
+    ;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.313rem;
+    color: #DCD7C9;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+p,
+form {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1rem;
+}
+
+#main__container--messagePlaceholder {
+    color: #5f3d1f;
+    font-weight: 900;
+    height: 2vh;
+    font-style: italic;
+    font-weight: 100;
+    font-size: .9rem;
+    margin-bottom: 1em;
+}
+
+.main__container--subtitle2 {
+    margin-bottom: 2em;
+}
+
+input {
+    margin-bottom: 2em;
+    display: block;
+    height: 2rem;
+    width: clamp(150px, 35vw, 19rem);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 1.5px 4px #2C3639;
+    font-family: 'Cuprum', sans-serif;
+    text-align: right;
+    color: #2C3639;
+    background-color: #e0ded9;
+}
+
+button {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: #DCD7C9;
+    background-color: #2C3639;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: .5em 3em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #DCD7C9;
+    color: #2C3639;
+    transform: translateY(-3px);
+    box-shadow: 0px 1.5px 4px #2C3639;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #e0ded9;
+    transform: translateY(2px);
+    box-shadow: 0px 1.5px 2px #2C3639;
+
+}
+
+#main__container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #A27B5C;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #554130a9;
+    color: #DCD7C9;
+    text-align: center;
+    padding: 1em 2em;
+    width: clamp(200px, 50vw, 27rem);
+}
+
+footer {
+    color: #DCD7C9;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+    font-size: .7rem;
+    margin-top: 1em;
+    letter-spacing: 0.2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #DCD7C9;
+}
+
+footer a:hover {
+    color: #81a6b1;
+}
